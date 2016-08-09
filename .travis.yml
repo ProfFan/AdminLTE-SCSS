@@ -10,4 +10,5 @@ before_script:
 script:
   - gulp
   - gulp js
+after_script:
   - scss-lint
