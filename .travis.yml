@@ -2,7 +2,9 @@ before_script:
   - npm install
   - npm install -g bower
   - gem install sass
+  - gem install scss_lint
   - bower install
 script:
   - gulp
   - gulp js
+  - scss-lint assets/sass
