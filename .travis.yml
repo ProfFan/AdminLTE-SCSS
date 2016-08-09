@@ -7,4 +7,4 @@ before_script:
 script:
   - gulp
   - gulp js
-  - scss-lint assets/sass
+  - scss-lint
