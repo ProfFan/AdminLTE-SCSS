@@ -1,5 +1,3 @@
-scss_files: 'assets/sass'
-
-linters:
-  severity: warning
-  width: 2
+scss_files: 'assets/sass/**/*.scss'
+severity: warning
+width: 2
