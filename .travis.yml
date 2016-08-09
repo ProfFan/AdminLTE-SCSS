@@ -1,5 +1,6 @@
 before_script:
   - npm install
+  - gem install sass
 script:
   - gulp
   - gulp js
