@@ -27,7 +27,8 @@ gulp.task('icons', function () {
 gulp.task('fonts', function () {
     return gulp.src([
         config.bowerDir + '/Han/font/**.*',
-        config.bowerDir + '/Ionicons/fonts/**.*'
+        config.bowerDir + '/Ionicons/fonts/**.*',
+        config.bowerDir + '/bootstrap-sass/assets/fonts/bootstrap/**.*'
     ])
         .pipe(gulp.dest('./public/fonts'));
 });

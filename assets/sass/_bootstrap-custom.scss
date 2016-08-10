@@ -5,12 +5,26 @@
  */
 
 // Core variables and mixins
+$icon-font-path: "../fonts/";
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
 
 // Reset and dependencies
 @import "bootstrap/normalize";
 @import "bootstrap/print";
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings' !important;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 @import "bootstrap/glyphicons";
 
 // Core CSS
