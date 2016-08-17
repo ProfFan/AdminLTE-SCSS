@@ -1,3 +1,10 @@
 scss_files: 'assets/sass/**/*.scss'
 severity: warning
 width: 2
+linters:
+  Indentation:
+    enabled: false
+  StringQuotes:
+    enabled: false
+  UrlQuotes:
+    enabled: false
