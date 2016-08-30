@@ -4,6 +4,10 @@
 
 Port of AdminLTE in SCSS.
 
+# Demo
+
+https://proffan.github.io/AdminLTE-SCSS/
+
 # TODO
 
 Rewrite components JavaScript to remove jQuery.
